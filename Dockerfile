@@ -1,8 +1,3 @@
-#FROM	nginx:alpine	
-#COPY	.	/usr/share/nginx/html
-	
-#EXPOSE	80
-
 # Use official Nginx image as base (for serving static content)
 FROM nginx:alpine
 
