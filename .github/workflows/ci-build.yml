@@ -35,7 +35,7 @@ jobs:
       # Pousser l'image vers Docker Hub
       - name: Push image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/devops-static-website:latest
-             docker push $DOCKER_REGISTRY/$IMAGE_NAME:$IMAGE_TAG
+            
           
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@0.20.0
